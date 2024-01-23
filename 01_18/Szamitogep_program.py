@@ -27,3 +27,5 @@ for i in range(len(szamitogepek)):
     if szamitogepek[max].ram < szamitogepek[i].ram:
         max = i
 print(szamitogepek[max].op_r)
+
+print(f"Van-e 60-nál nagyobb windows: ", end="")
