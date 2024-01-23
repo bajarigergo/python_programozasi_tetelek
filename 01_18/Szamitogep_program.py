@@ -27,6 +27,7 @@ for i in range(len(szamitogepek)):
     if szamitogepek[max].ram < szamitogepek[i].ram:
         max = i
 print(szamitogepek[max].op_r)
+
 w_g = 0
 print(f"Hány Windows-os gépünk van? ", end="")
 for i in range(len(szamitogepek)):
@@ -40,8 +41,6 @@ print(f"Válasz: {w_g}")
 # eldontes tétele:
 
 
-vizsgalt_ram = 22
-print(f"Van-e {vizsgalt_ram} GB-nál nagyobb windows: ", end="")
 
 # van = False
 # for i in range(len(szamitogepek)):
@@ -56,6 +55,8 @@ print(f"Van-e {vizsgalt_ram} GB-nál nagyobb windows: ", end="")
 #
 
 
+vizsgalt_ram = 22
+print(f"Van-e {vizsgalt_ram} GB-nál nagyobb windows: ", end="")
 i = 0
 seged = False
 while i <= len(szamitogepek)-1 and seged == False:

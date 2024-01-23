@@ -1,5 +1,6 @@
 class Szamitogep:
-    def __init__(self, op_r, ram):
-        self.op_r = op_r
-        self.ram = ram
+    def __init__(self, sor: str):
+        sor = sor.strip().split("#")
+        self.op_r = str(sor[0])
+        self.ram = int(sor[1])
 

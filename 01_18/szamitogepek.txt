@@ -1,0 +1,4 @@
+op_rendszer#ram
+Win#32
+Mac#16
+Win#16
