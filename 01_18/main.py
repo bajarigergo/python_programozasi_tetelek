@@ -1,4 +1,10 @@
-import osszegzes
-import prim_eldontes
+# import osszegzes
+# import prim_eldontes
+#
+# prim_eldontes.tetel()
+import sys
 
-prim_eldontes.tetel()
+import megszamlalas
+print(megszamlalas.tetel())
+import szelsoertek
+print(szelsoertek.tetel())
